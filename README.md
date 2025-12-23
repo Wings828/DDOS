@@ -28,3 +28,8 @@ python3 DRipper.py
 python3 DRipper.py -s [ip Address] -t 135
 
 example: python3 DRipper.py -s 0.00.00.00 -t 135
+
+# For Debian-based GNU/Linux distributions
+To use the application, type in the following commands in GNU/Linux terminal.
+
+sudo apt install git git clone https://github.com/palahsu/DDoS-Ripper.git cd DDoS-Ripper $ ls $ python3 DRipper.py OR python2 DRipper.py
