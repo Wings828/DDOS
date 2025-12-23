@@ -8,3 +8,18 @@ DDoS attacks achieve effectiveness using multiple compromised computer systems a
 
 NOTE (Please, make sure you have installed python 3 )
 
+To use the DRipper type the following commands in Termux:
+
+pkg install git -y
+
+pkg install python -y
+
+pkg install python3 -y
+
+git clone https://github.com/palahsu/DDoS-Ripper.git
+
+cd DDoS-Ripper $ ls
+
+python3 DRipper.py
+
+
