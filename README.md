@@ -17,19 +17,29 @@ NOTE (Please, make sure you have installed python 3 )
 
 # To use the DRipper type the following commands in Termux:
 
-'''
-$ pkg install git -y
+### Installation Commands
 
+* Update and Install Git:
+  ```bash
+  $ pkg install git -y
+
+
+* Install python:
+```bash
 $ pkg install python -y
-
 $ pkg install python3 -y
-
-$ git clone https://github.com/palahsu/DDoS-Ripper.git
-
-$ cd DDoS-Ripper $ ls
-
-$ python3 DRipper.py'''
-
+```
+```bash
+$ git clone [https://github.com/palahsu/DDoS-Ripper.git](https://github.com/palahsu/DDoS-Ripper.git)
+```
+```bash
+$ cd DDoS-Ripper
+$ ls
+```
+* starting DRipper:
+```bash
+$ python3 DRipper.py
+```
 
 # USGAE
 
@@ -39,8 +49,15 @@ example: python3 DRipper.py -s 0.00.00.00 -t 135
 
 # For Debian-based GNU/Linux distributions
 To use the application, type in the following commands in GNU/Linux terminal.
-
-$ sudo apt install git git clone $ https://github.com/palahsu/DDoS-Ripper.git 
-$cd DDoS-Ripper 
+* install git:
+```bash
+$ sudo apt install git
+```
+```bash
+$ git clone  https://github.com/palahsu/DDoS-Ripper.git 
+$cd DDoS-Ripper
+```
+```bash
 $ ls 
 $ python3 DRipper.py OR python2 DRipper.py
+```
